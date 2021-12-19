@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src='test.js' defer></script>
+</head>
+<body>
+  
+  <script>
+    /*
+      defer로드를 하면
+      js loaded -> DOMContentLoaded -> resources load
+    */
+    // document만 로딩이 되면
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('DOMContentLoaded');
+    });
+    // resources가 모두 로딩이 되면
+    window.addEventListener('load', () => {
+      console.log('resources load');
+    });
+  </script>
+</body>
+</html>
