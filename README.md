@@ -9,3 +9,4 @@
   - window-coordinates
   - window-load
 - ch02. DOM
+  - critical-rendering-path
