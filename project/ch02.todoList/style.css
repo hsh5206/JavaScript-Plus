@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.container {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 80%;
+  border-radius: 15px;
+}
+.content {
+  background-color: white;
+  height: 300px;
+  overflow: scroll;
+}
+.title {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.title span {
+  font-size: 28px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  margin: 10px;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 18px;
+}
+.list li button {
+  border: 0;
+  cursor: pointer;
+  background: none;
+  font-size: 16px;
+}
+.list li button:hover {
+  color: red;
+  transform: scale(1.2);
+}
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+.todo-form input {
+  height: 30px;
+  font-size: 18px;
+  border-style: none;
+  background-color: ghostwhite;
+}
+.push-button {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.push-button button {
+  font-size: 30px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.push-button button:hover {
+  color: skyblue;
+  transform: scale(1.2);
+}
